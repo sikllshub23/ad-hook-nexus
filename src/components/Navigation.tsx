@@ -29,6 +29,8 @@ const Navigation = () => {
       }`}
     >
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <h1 className="text-xl font-bold gradient-text">SOFTBUSINESS</h1>
+
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-6">
           <button
