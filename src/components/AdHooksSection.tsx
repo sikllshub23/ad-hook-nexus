@@ -19,8 +19,8 @@ const AdHooksSection = () => {
   ];
 
   return (
-    <section id="ad-hooks-section" className="relative py-20 px-4">
-      <div className="max-w-6xl mx-auto space-y-16">
+    <section id="ad-hooks-section" className="relative py-12 px-4">
+      <div className="max-w-6xl mx-auto space-y-12">
         {/* Header */}
         <div className="text-center space-y-6">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30">

@@ -15,7 +15,7 @@ const SurveySection = () => {
   }, []);
 
   return (
-    <section id="survey-section" className="relative py-20 px-4">
+    <section id="survey-section" className="relative py-12 px-4">
       <div className="max-w-4xl mx-auto">
         {/* Card Container */}
         <div className="card-glass rounded-3xl p-8 md:p-12 space-y-8">

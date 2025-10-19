@@ -86,3 +86,21 @@ All colors MUST be HSL.
     box-shadow: var(--shadow-card);
   }
 }
+
+/* Hide Lovable Badge */
+#lovable-badge-close {
+  display: none !important;
+}
+
+/* Button Animations */
+button {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
