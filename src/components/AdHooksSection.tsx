@@ -25,7 +25,7 @@ const AdHooksSection = () => {
         <div className="text-center space-y-6">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30">
             <Zap className="w-4 h-4 text-primary" />
-            <span className="text-sm font-semibold text-primary">SOLUTION N°1</span>
+            <span className="text-sm font-semibold text-primary">NOTRE PREMIÈRE SOLUTION</span>
           </div>
           
           <h2 className="text-3xl md:text-5xl font-bold leading-tight max-w-4xl mx-auto">
@@ -33,8 +33,21 @@ const AdHooksSection = () => {
           </h2>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-            Le SEUL outil qui transforme tes publicités, tes Réels et tes contenus en machine à clics et à vues sans gaspiller ton budget.
+            Un outil qui transforme tes publicités, tes Réels et tes contenus en machine à clics et à vues sans gaspiller ton budget.
           </p>
+        </div>
+
+        {/* YouTube Video */}
+        <div className="max-w-2xl mx-auto">
+          <div className="relative w-full" style={{ paddingBottom: "177.78%" }}>
+            <iframe
+              className="absolute top-0 left-0 w-full h-full rounded-2xl shadow-lg"
+              src="https://www.youtube.com/embed/IOFh_mlRDMw"
+              title="AD HOOKS Presentation"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
         </div>
 
         {/* Problem Section */}
@@ -120,15 +133,16 @@ const AdHooksSection = () => {
           <Button 
             size="lg"
             asChild
-            className="text-lg px-12 py-7 bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-all glow-effect group text-xl font-bold"
+            className="text-base md:text-lg px-6 md:px-12 py-6 md:py-7 bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-all glow-effect group font-bold w-full md:w-auto max-w-full"
           >
             <a 
               href="https://store.softbusiness.xyz/ad-hook-pro?campaign=SCWXJ6H2E1"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex items-center justify-center"
             >
-              Découvrir AD HOOKS Pro
-              <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+              <span className="truncate">Découvrir AD HOOKS Pro</span>
+              <ArrowRight className="ml-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
             </a>
           </Button>
           

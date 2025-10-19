@@ -28,12 +28,51 @@ const Footer = () => {
             </ul>
           </div>
           
-          {/* Contact */}
+          {/* Liens Utiles */}
           <div className="space-y-4">
-            <h4 className="font-semibold text-foreground">Contact</h4>
-            <p className="text-sm text-muted-foreground">
-              Des questions ? Contactez-nous pour en savoir plus sur nos solutions.
-            </p>
+            <h4 className="font-semibold text-foreground">Suivez-nous</h4>
+            <ul className="space-y-2 text-sm text-muted-foreground">
+              <li>
+                <a 
+                  href="https://kloo.me/acquisition" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-primary transition-colors"
+                >
+                  📝 Blog
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://instagram.com/lagencenoname" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-primary transition-colors"
+                >
+                  📷 Instagram
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://facebook.com/lagencenoname" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-primary transition-colors"
+                >
+                  👥 Facebook
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://store.softbusiness.xyz" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-primary transition-colors"
+                >
+                  🛍️ Boutique
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
         

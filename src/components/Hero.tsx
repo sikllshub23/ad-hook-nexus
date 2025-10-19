@@ -7,7 +7,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-card pointer-events-none" />
       
