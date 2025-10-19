@@ -29,7 +29,7 @@ const Navigation = () => {
       }`}
     >
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <h1 className="text-xl font-bold gradient-text">SOFTBUSINESS</h1>
+        <div></div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-6">
