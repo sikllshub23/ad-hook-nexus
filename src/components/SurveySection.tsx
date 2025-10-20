@@ -9,8 +9,16 @@ const SurveySection = () => {
     script.async = true;
     document.body.appendChild(script);
 
+    // Load Substack embed script
+    const substackScript = document.createElement('script');
+    substackScript.src = "https://substack.com/embedjs/embed.js";
+    substackScript.async = true;
+    substackScript.charset = "utf-8";
+    document.body.appendChild(substackScript);
+
     return () => {
       document.body.removeChild(script);
+      document.body.removeChild(substackScript);
     };
   }, []);
 
@@ -19,6 +27,13 @@ const SurveySection = () => {
       <div className="max-w-4xl mx-auto">
         {/* Card Container */}
         <div className="card-glass rounded-3xl p-8 md:p-12 space-y-8">
+          {/* Substack Embed */}
+          <div className="substack-post-embed">
+            <p lang="fr">Du 0% d'Attention à la Croissance Structurée. par SoftBusiness</p>
+            <p>Les 04 méthodes d'acquisition client + les clés pour convertir un simple scroller en prospect puis en acheteur pour ton offre.</p>
+            <a data-post-link href="https://lagencenoname.substack.com/p/du-0-dattention-a-la-croissance-structuree">Lire sur Substack</a>
+          </div>
+
           {/* Alert Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-destructive/10 border border-destructive/30">
             <span className="text-2xl">🚨</span>
