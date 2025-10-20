@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, XCircle, ArrowRight, Zap, Target, TrendingUp } from "lucide-react";
+import PhoneMockup from "@/components/PhoneMockup";
 
 const AdHooksSection = () => {
   const problems = [
@@ -29,7 +30,7 @@ const AdHooksSection = () => {
           </div>
           
           <h2 className="text-3xl md:text-5xl font-bold leading-tight max-w-4xl mx-auto">
-            <span className="gradient-text">AD HOOK CONTENT</span> : L'ARSENAL D'ACCROCHES QUI DÉTRUIT L'INVISIBILITÉ
+            <span className="gradient-text">AD HOOKS Content</span> : L'ARSENAL D'ACCROCHES QUI DÉTRUIT L'INVISIBILITÉ
           </h2>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
@@ -76,6 +77,9 @@ const AdHooksSection = () => {
             </p>
           </div>
         </div>
+
+        {/* Phone Mockup */}
+        <PhoneMockup />
 
         {/* Solution Section */}
         <div className="card-glass rounded-3xl p-8 md:p-12 space-y-8">
@@ -141,7 +145,8 @@ const AdHooksSection = () => {
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3"
             >
-              <span className="truncate">Découvrir AD HOOKS Pro</span>
+              <span className="hidden md:inline truncate">Découvrir AD HOOKS Content</span>
+              <span className="md:hidden truncate">AD HOOKS</span>
               <span className="flex-shrink-0 px-3 py-1 bg-white/20 rounded-full text-sm font-semibold">2.500 FCFA</span>
               <ArrowRight className="flex-shrink-0 group-hover:translate-x-1 transition-transform" />
             </a>
