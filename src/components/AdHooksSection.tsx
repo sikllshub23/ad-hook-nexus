@@ -136,13 +136,14 @@ const AdHooksSection = () => {
             className="text-base md:text-lg px-6 md:px-12 py-6 md:py-7 bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-all glow-effect group font-bold w-full md:w-auto max-w-full"
           >
             <a 
-              href="https://store.softbusiness.xyz/ad-hook-pro?campaign=SCWXJ6H2E1"
+              href="https://digital.izonetech.store/ad-hook-pro?campaign=SCWXJ6H2E1"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center"
+              className="flex items-center justify-center gap-3"
             >
               <span className="truncate">Découvrir AD HOOKS Pro</span>
-              <ArrowRight className="ml-2 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+              <span className="flex-shrink-0 px-3 py-1 bg-white/20 rounded-full text-sm font-semibold">2.500 FCFA</span>
+              <ArrowRight className="flex-shrink-0 group-hover:translate-x-1 transition-transform" />
             </a>
           </Button>
           
